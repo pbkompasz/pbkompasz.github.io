@@ -4,15 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-Show off your projects here!
-- [Awesome Project]()
-- [Cool Project]()
-- [New Project]()
-- [Old Project]()
-- [Hard Project]()
-- [School Project]()
-- [Project's Project]()
-
-# Talks
-- How to ????
+Projects I worked on/currently working on
+- [Tets project]({{ "/test-project" | prepend: site.baseurl }})
 
