@@ -1,13 +1,56 @@
 <header class="c-page__header">
-  <h1><code>{{ site.title}}</code></h1>
-  {% if page.title == 'Home' %}
-  <h1>{{ site.description }}</h1>
-  {% endif %}
-  <p>
-    <a href="{{ "/" | prepend: site.baseurl }}">Home</a>
-    <span class="u-separate"></span>
-    <a href="{{ "/projects/" | prepend: site.baseurl }}">Projects</a>
-    <span class="u-separate"></span> 
-    <a href="{{ "/about/" | prepend: site.baseurl }}">About</a>
-  </p>
+  <div class="container">
+        <div style="margin-right: auto">
+            {% if page.title != 'Home' %}
+                <a id="no-hover" href="/">{{site.title}}</a>
+            {% endif %}
+        </div>
+        <div
+            {% if page.title == 'About' %}
+                class="active"
+            {% endif %}
+        >
+            <a href="{{ "/about/" | prepend: site.baseurl }}">about</a>
+        </div>
+        <div
+            {% if page.title == 'Blog' %}
+                class="active"
+            {% endif %}
+        >
+            <a href="{{ "/blog/" | prepend: site.baseurl }}">blog</a>
+        </div>
+        <div
+             {% if page.title == 'Projects' %}
+                class="active"
+            {% endif %}
+        >
+            <a href="{{ "/projects/" | prepend: site.baseurl }}">projects</a>
+        </div>
+        <div>
+            nightmode logo
+        </div>
+    </div>
 </header>
+
+<style>
+    a {
+        color: black;
+        font-size: large;
+    }
+    a.hover {
+        color: red;
+    }
+    .container {
+        display: flex; 
+        justify-content: flex-end; 
+        width: 100%; 
+        align-items: baseline;
+        gap: 10px;
+    }
+    .active a {
+        color: red;
+    }
+    #no-hover {
+        color: black;
+    }
+</style>

@@ -51,12 +51,11 @@
 }
 
 .c-tag:hover {
-  background-color: $c-accent__blue;
-  color: white;
+    
+  color: red;
 }
 
 .c-tag:hover::after {
-   border-left-color: $c-accent__blue;
 }
 
 .c-c-tag {
