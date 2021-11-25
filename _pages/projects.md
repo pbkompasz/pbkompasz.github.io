@@ -1,15 +1,12 @@
 ---
 layout: content
-title: Projects
+title: projects
 permalink: /projects/
 ---
 
-Projects I worked on/currently working on
-- [Tets project]({{ "/test-project" | prepend: site.baseurl }})
-
-{{}}
+projects I have worked on
 
 {% for project in site.projects %}
-    {{project.title}}
+[{{project.title}}]({{project.url}})
 {% endfor %}
 

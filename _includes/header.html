@@ -27,7 +27,14 @@
             <a href="{{ "/projects/" | prepend: site.baseurl }}">projects</a>
         </div>
         <div>
-            nightmode logo
+            {% if site.enable_darkmode %}
+                <div class = "toggle-container">
+                  <a id = "light-toggle">
+                      <i class="fas fa-moon"></i>
+                      <i class="fas fa-sun"></i>
+                  </a>
+                </div>
+            {% endif %}
         </div>
     </div>
 </header>
