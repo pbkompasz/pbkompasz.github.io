@@ -1,12 +1,16 @@
 <footer class="c-page__footer">
-    <p>&copy; {{ site.author }} {{ 'now' | date: '%Y' }}</p>
+    <!--  <p>&copy; {{ site.author }} {{ 'now' | date: '%Y' }}</p> -->
+    <p></p>
     <p>
-        {% if site.twitter_username %}
-            <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+        {% if site.email %}
+            <a target="_blank" rel="noopener noreferrer" href="mailto: pbkompasz@gmail.com">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Envelope_alt_font_awesome.svg/768px-Envelope_alt_font_awesome.svg.png" alt="email" style="width:42px;height:42px;">
+            </a>
+        {% endif %}
         {% if site.github_username %}
-            <span class="u-separate"></span>
-        {% endif %}{% endif %}{% if site.github_username %}
-            <a href="https://github.com/{{ site.github_username }}">Github</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/{{site.github_username}}">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="width:42px;height:42px;">
+            </a>
         {% endif %}
     </p>
 </footer>

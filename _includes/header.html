@@ -2,15 +2,8 @@
   <div class="container">
         <div style="margin-right: auto">
             {% if page.title != 'Home' %}
-                <a id="no-hover" href="/">{{site.title}}</a>
+                <a id="no-hover" href="/">{{site.author}}</a>
             {% endif %}
-        </div>
-        <div
-            {% if page.title == 'About' %}
-                class="active"
-            {% endif %}
-        >
-            <a href="{{ "/about/" | prepend: site.baseurl }}">about</a>
         </div>
         <div
             {% if page.title == 'Blog' %}
@@ -37,6 +30,7 @@
             {% endif %}
         </div>
     </div>
+    <hr>
 </header>
 
 <style>

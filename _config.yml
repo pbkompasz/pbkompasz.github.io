@@ -7,6 +7,7 @@ author: Peter-Bence Kompasz
 email: pbkompasz@gmail.com  
 #twitter_username: _HairForceOne
 github_username: pbkompasz
+instagram_username: your_thighness98
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://pbkompasz.me" # the base hostname & protocol for your site
@@ -38,3 +39,6 @@ collections:
 fontawesome:
   version: "5.14.0"
   integrity: "sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+
+# Dark mode
+enable_darkmode: false

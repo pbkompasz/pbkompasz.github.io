@@ -10,6 +10,13 @@
 </p>
 <br>
 
+######################################
+
+RUN: bundle exec jekyll serve
+
+######################################
+
+
 Paper is a minimal Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. The styling is purposely minimalistic so that you can add your own flare to the website.
 
 Live demo of the theme can be seen [here](https://deadbeef.me/paper-jekyll-theme/). I'm also currently using this theme on my [personal blog](https://www.deadbeef.me).
