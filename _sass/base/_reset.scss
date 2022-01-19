@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    @include ff--sans-serif(400);
+    font-family: 'Roboto Mono', monospace;
     -webkit-font-smoothing: antialiased;
     margin-top: auto;
 }
