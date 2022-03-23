@@ -9,33 +9,76 @@ title: Home
   {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
   {% if forloop.first %}
 
-    <h2 class=""> {{site.author}} </h2>
+    <!-- <h1
+        style="font-size: large; margin-bottom: 15px"
+    > 
+        {{site.author}} 
+    </h1> -->
+    <h2
+        style="margin-bottom: 15px; text-decoration: underline; font-size: large;"
+    >
+        bio
+    </h2>
+    <p
+        style="font-size: medium"
+    >
+        Hi, I'm Peter!
+    </p>
+    <p
+        style="font-size: medium"
+    >
+        I am the founder of a series of humble online businesses (Newsletter Spy, Abandoned Assets, Under the Radar, Tweets on Demand), author of the Founder Flywheel newsletter, and host of the Business Brainstorms podcast.
+    </p>
+    <p
+        style="font-size: medium"
+    >
+        This site hosts all of my writing on entrepreneurship, self-education, marketing, and more.
+    </p>
+    <p
+        style="font-size: medium"
+    >
+        My big theme for this year is to learn how to win at the Great Online Game.
+    </p>
+    <p
+        style="font-size: medium"
+    >
+        Previously I graduated with PhD in theoretical particle physics and then decided carve out my own path by pursuing a Bootstrap MBA.
+    </p>
+    <p
+        style="font-size: medium"
+    >
+        Finally, if you're a curious intelligent person, you should definitely join the 5000+ other people on my personal newsletter. It’s one email a week with everything interesting I’ve learned, read or found.
+    </p>
 
-    <h3> latest </h3>
-
- <h3>  socials </h3>
-    <a href="https://www.instagram.com/{{site.instagram_username}}"> Instagram </a> for 📸
-
-  <!--<h2 class="c-archives__year" id="{{ this_year }}-ref">{{this_year}}</h2>
-  <ul class="c-archives__list">
-    {% endif %}
-    <li class="c-archives__item">
-      <h3>
-        <a href="{{ post.url  }}">{{post.title}}</a>
+    <h2
+        style="margin-top: 15px; margin-bottom: 15px; text-decoration: underline; font-size: large;" 
+    >  socials </h2>
+    <div
+        style="font-size: medium"
+    >
+        <a 
+            href="https://www.instagram.com/{{site.instagram_username}}" 
+            style="font-size: medium"
+        > 
+            instagram 
+        </a> 
+        for 📸
         <br>
-        <small>{{post.description}}</small>
-      </h3>
-      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-    </li>
-    {% if forloop.last %}
-  </ul>
-  {% else %}
-  {% if this_year != next_year %}
-</ul>
-<h2 class="c-archives__year" id="{{ next_year }}-ref">{{next_year}}</h2>
-<ul class="c-archives__list">
-  {% endif %}
+        <a 
+            href="https://www.instagram.com/{{site.instagram_username}}" 
+            style="font-size: medium"
+        > 
+            github 
+        </a>
+        <br>
+        <a 
+            href="https://www.instagram.com/{{site.instagram_username}}" 
+            style="font-size: medium"
+        > 
+            twitter 
+        </a>
+    </div>
+
   {% endif %}
   {% endfor %}
-    -->
 </section>

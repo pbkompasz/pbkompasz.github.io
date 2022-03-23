@@ -5,15 +5,18 @@
                 <a id="no-hover" href="/">{{site.author}}</a>
             {% endif %}
         </div>
+
         <div
-            {% if page.title == 'Blog' %}
+            {% if page.title == 'blog' %}
                 class="active"
             {% endif %}
         >
-            <a href="{{ "/blog/" | prepend: site.baseurl }}">blog</a>
+            {% if site.blog %}
+                <a href="{{ "/blog/" | prepend: site.baseurl }}">blog</a>
+            {% endif %}
         </div>
         <div
-             {% if page.title == 'Projects' %}
+             {% if page.title == 'projects' %}
                 class="active"
             {% endif %}
         >

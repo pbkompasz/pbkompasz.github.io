@@ -8,6 +8,7 @@ email: pbkompasz@gmail.com
 #twitter_username: _HairForceOne
 github_username: pbkompasz
 instagram_username: your_thighness98
+blog: false
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://pbkompasz.me" # the base hostname & protocol for your site
