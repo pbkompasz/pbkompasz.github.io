@@ -170,9 +170,9 @@ hr {
 
 pre { overflow: auto; }
 
-code, pre {
+// code, pre {
 
-}
+// }
 small {
         color: gray;
 }
@@ -180,11 +180,12 @@ small {
 .mbtablestyle {
         border-collapse: collapse;
 
-   > table, td, th {
-        border: 1px solid black;
+   > table, tr {
+        border: 1px solid rgb(223, 223, 223);
         padding: 5px;
         }
-    th {
-        background-color: rgb(184, 184, 184);
+    th, td {
+        padding: 10px;
+        background-color: #eee;
     }
 }
