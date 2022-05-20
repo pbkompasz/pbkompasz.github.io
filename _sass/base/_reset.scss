@@ -188,4 +188,7 @@ small {
         padding: 10px;
         background-color: #eee;
     }
+    th, td:first-child {
+        white-space: nowrap;
+    }
 }

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "youtube2anki"
-date: "2022-03-11"
-releaseDate: "03-2022"
-tags: chrome typescript anki
+title: "vuex-orm-restful"
+date: "2022-05-20"
+releaseDate: "05-2022"
+tags: typescript vue vuex
 comments: true
 type: "Chrome extension"
 description: "Chrome extension that let's you mark blablabla"
