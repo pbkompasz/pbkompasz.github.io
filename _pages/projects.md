@@ -7,7 +7,6 @@ permalink: /projects/
 | PROJECT NAME  | TYPE | DESCRIPTION | LAUNCH DATA | CURRENT STATUS | 
 | :----: | :----: | :----: | :----: | :----: | 
 {% for project in site.projects -%}
-| [{{project.title}}]({{project.url}}) | {{ project.type}} | {{ project.description}} | {{ project.releaseDate}} | {{ project.status}} |
+| [{{project.title}}]({{project.url}}) | {{ project.type}} | {{ project.description}} | {{ project.releaseDate}} | {{ project.status}} | 
 {% endfor -%}
 {:.mbtablestyle}
-

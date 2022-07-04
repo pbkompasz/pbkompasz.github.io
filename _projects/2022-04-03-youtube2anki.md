@@ -7,7 +7,7 @@ tags: chrome typescript anki
 comments: true
 type: "Chrome extension"
 description: "Chrome extension that let's you mark blablabla"
-status: "development"
+status: "private"
 ---
 
 Anki is a program which makes remembering things easy.  

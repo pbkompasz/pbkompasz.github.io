@@ -10,14 +10,11 @@ description: "Chrome extension that let's you mark blablabla"
 status: "development"
 ---
 
-Anki is a program which makes remembering things easy.  
-Anki works by maintaining a database of flashcards that you can review.  
-These deck are either your personal creation or one created by the <a href="https://ankiweb.net/shared/decks/" target="_blank">community</a>.  
-Creating a flashcard is a long and tedious task which involves a lot of repetitive tasks.  
-youtube2anki is a Chrome extension that helps you with this process.  
-Given a youtube video with available subtitles youtube2anki allows you to select a world or phrase, create a corresponding card and save it
-to your database dodgeing a lot of repetitive tasks.  
-<a href="https://github.com/pbkompasz/youtube2anki" target="_blank">source code</a>
+Vuex-ORM brings Object-Relational Mapping to the Vuex Store. vuex-orm-rest lets you communicate with RESTful backends.  
+This plugin extends the basic model of Vuex-ORM with some helpful functions to make CRUD operations such as (save, fetch, fetchAll, update and delete).  
+Compatible with **Pinia**  
+
+<a href="https://github.com/pbkompasz/vuex-orm-restful" target="_blank">source code</a>
 
 ---
 

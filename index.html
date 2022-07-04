@@ -20,9 +20,13 @@ title: Home
     >
         Hi, I'm Peter!
     </p>
+
+    {% if !site.serious %}
     <div style="width: 100%; display: flex;  justify-content: center">
         <img style="margin: 20px" src="./assets/name.gif" alt="funny animation GIF">
     </div>
+    {% endif %}
+
     <p
         style="font-size: medium"
     >
@@ -31,11 +35,7 @@ title: Home
         <!-- You can check out my most recent project <a href="https://www.youtube.com/watch?v=BwsHBd_BoM0">here</a>. -->
         
     </p>
-    <p
-        style="font-size: medium"
-    >
-        This site serves as a showcase for my personal projects.
-    </p>
+    
     <p
         style="font-size: medium"
     >
@@ -44,7 +44,13 @@ title: Home
     <p
         style="font-size: medium"
     >
-        Currently I am persuing a BSc in computer science.
+        Currently I am pursuing a BSc in computer science.
+    </p>
+
+    <p
+        style="font-size: medium"
+    >
+        This site serves as a showcase for my personal projects.
     </p>
 
     <h2
